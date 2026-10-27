@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10110f">
+    <meta name="description" content="A thoughtful software developer portfolio: selected projects, skills, and experience.">
+    <meta property="og:title" content="Your Name — Software Developer">
+    <meta property="og:description" content="Thoughtful software, made with care. Explore selected work and skills.">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="index.html">
+    <title>Your Name — Software Developer</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/site.css">
+    <script src="https://cdn.tailwindcss.com" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html" aria-label="Code Folio home">
+          <span class="brand-mark" aria-hidden="true">c<span>.</span></span>
+          <span>code folio</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation"
+          data-open-label="Open navigation"
+          data-close-label="Close navigation"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
+          <a data-page="index.html" href="index.html">Home</a>
+          <a data-page="projects.html" href="projects.html">Projects</a>
+          <a data-page="resume.html" href="resume.html">Résumé</a>
+          <a href="index.html#contact">Contact</a>
+          <a class="language-switch" href="../es/index.html" lang="es" aria-label="Ver en español">EN <span>/</span> ES</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="availability">
+            <span class="availability-dot"></span>
+            Open to thoughtful collaborations
+          </div>
+          <h1>Code with<br><span class="accent-line">a point of view.</span></h1>
+          <p class="hero-copy">
+            Hello, I’m <strong>Your Name</strong> — a software developer who enjoys building useful,
+            considered digital experiences, from the first sketch to the last detail.
+          </p>
+          <div class="button-row">
+            <a class="button button-primary" href="projects.html">
+              Explore selected work
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6"></path>
+              </svg>
+            </a>
+            <a class="button" href="resume.html">
+              View résumé
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M12 3v12m-5-5 5 5 5-5M5 20h14"></path>
+              </svg>
+            </a>
+          </div>
+          <div class="hero-meta" aria-label="Areas of focus">
+            <span>Product-minded engineering</span>
+            <span>Web &amp; software</span>
+            <span>Always learning</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">A few things I’ve made</p>
+              <h2>Selected work</h2>
+            </div>
+            <a class="text-link" href="projects.html">All projects
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6"></path>
+              </svg>
+            </a>
+          </div>
+          <div class="project-grid">
+            <article class="project-card reveal" data-category="python">
+              <div class="project-visual"><span class="visual-path" aria-hidden="true">S · · · * · E</span></div>
+              <div class="project-content">
+                <div class="project-topline">
+                  <span class="project-index">01 / Path Quest</span>
+                  <span class="project-type">Python · Algorithms</span>
+                </div>
+                <h3>Path Quest</h3>
+                <p>A procedural maze generator with a step-by-step A* solver, built for the terminal.</p>
+                <ul class="tag-list"><li>Python</li><li>A*</li><li>CLI</li><li>unittest</li></ul>
+                <div class="project-links"><a class="text-link" href="projects.html#path-quest">Project notes <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </article>
+            <article class="project-card reveal" data-category="python">
+              <div class="project-visual"><span class="visual-tavern" aria-hidden="true">The Prancing Pony</span></div>
+              <div class="project-content">
+                <div class="project-topline">
+                  <span class="project-index">02 / Tavern Manager</span>
+                  <span class="project-type">Python · Game</span>
+                </div>
+                <h3>The Prancing Pony</h3>
+                <p>A cozy terminal management game about running a fantasy tavern, one day at a time.</p>
+                <ul class="tag-list"><li>Python</li><li>OOP</li><li>CLI</li><li>unittest</li></ul>
+                <div class="project-links"><a class="text-link" href="projects.html#prancing-pony">Project notes <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </article>
+            <article class="project-card reveal" data-category="web">
+              <div class="project-visual"><div class="visual-book" aria-hidden="true"></div></div>
+              <div class="project-content">
+                <div class="project-topline">
+                  <span class="project-index">03 / Reading journal</span>
+                  <span class="project-type">Web · Editorial</span>
+                </div>
+                <h3>Valinor Reviews</h3>
+                <p>A bilingual, multi-page home for thoughtful reviews, reading paths, and literary discovery.</p>
+                <ul class="tag-list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>i18n</li></ul>
+                <div class="project-links"><a class="text-link" href="projects.html#valinor-reviews">Project notes <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </article>
+            <article class="project-card reveal" data-category="web">
+              <div class="project-visual"><span class="visual-arkham" aria-hidden="true">ARKHAM_</span></div>
+              <div class="project-content">
+                <div class="project-topline">
+                  <span class="project-index">04 / Field archive</span>
+                  <span class="project-type">Web · Storytelling</span>
+                </div>
+                <h3>Arkham Walker</h3>
+                <p>A bilingual, atmospheric field journal for exploring strange places and stranger stories.</p>
+                <ul class="tag-list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>i18n</li></ul>
+                <div class="project-links"><a class="text-link" href="projects.html#arkham-walker">Project notes <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container skills-layout">
+          <div class="skills-intro">
+            <p class="eyebrow">Tools of the trade</p>
+            <h2 class="section-title">Curious by nature.<br>Practical by design.</h2>
+            <p>A flexible toolkit for turning ideas into accessible, reliable products. The right tool is the one that fits the problem.</p>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3>Languages</h3>
+              <div class="skill-chips"><span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+            </div>
+            <div class="skill-group">
+              <h3>Web</h3>
+              <div class="skill-chips"><span>Responsive UI</span><span>Accessibility</span><span>Localization</span><span>Static sites</span></div>
+            </div>
+            <div class="skill-group">
+              <h3>Workflow</h3>
+              <div class="skill-chips"><span>Git</span><span>CLI</span><span>Testing</span><span>Documentation</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Experience / Trajectory</p>
+              <h2>A path still being written.</h2>
+            </div>
+            <p>Replace these clearly marked prompts with your real career and education history, newest first.</p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-period">[Start year] — Present</span>
+              <h3>[Current or most recent role]</h3>
+              <p class="timeline-org">[Company or client] · [Location / remote]</p>
+              <p>[Add a concise summary of your responsibilities, impact, and a measurable result.]</p>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-period">[Start year] — [End year]</span>
+              <h3>[Previous role or qualification]</h3>
+              <p class="timeline-org">[Company or institution] · [Location]</p>
+              <p>[Add the most relevant responsibilities, projects, or achievements from this period.]</p>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-period">[Start year] — [End year]</span>
+              <h3>[Earlier role or qualification]</h3>
+              <p class="timeline-org">[Company or institution] · [Location]</p>
+              <p>[Add a short description of the experience that shaped your professional path.]</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="contact-panel">
+            <div>
+              <p class="eyebrow">Have a good one in mind?</p>
+              <h2>Let’s make something that matters.</h2>
+              <p>Have a project, a question, or a collaboration in mind? I’d love to hear what you’re working on.</p>
+            </div>
+            <a class="button button-primary" href="mailto:hello@example.com">Say hello <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span data-current-year>2025</span> Your Name. Made with intention.</span>
+        <nav class="footer-links" aria-label="Social links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:hello@example.com">Email</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="../assets/js/site.js" defer></script>
+  </body>
+</html>
