@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10110f">
+    <meta name="description" content="Plantilla de currículum imprimible para profesionales de software. Personaliza tus datos y guárdalo en PDF.">
+    <meta property="og:title" content="Currículum — Tu nombre">
+    <meta property="og:description" content="Currículum imprimible de desarrollo de software.">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="resume.html">
+    <title>Currículum — Tu nombre</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/site.css">
+    <script src="https://cdn.tailwindcss.com" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html" aria-label="Inicio de Code Folio">
+          <span class="brand-mark" aria-hidden="true">c<span>.</span></span>
+          <span>code folio</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Abrir navegación"
+          data-open-label="Abrir navegación"
+          data-close-label="Cerrar navegación"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Navegación principal">
+          <a data-page="index.html" href="index.html">Inicio</a>
+          <a data-page="projects.html" href="projects.html">Proyectos</a>
+          <a data-page="resume.html" href="resume.html">Currículum</a>
+          <a href="index.html#contact">Contacto</a>
+          <a class="language-switch" href="../en/resume.html" lang="en" aria-label="View in English">
+            ES <span>/</span> EN
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-hero print-hide">
+        <div class="container page-heading">
+          <div>
+            <p class="eyebrow">Una presentación concisa</p>
+            <h1>Currículum</h1>
+          </div>
+          <p>Un resumen claro y listo para imprimir de tu experiencia, habilidades y proyectos.</p>
+        </div>
+      </section>
+      <div class="container resume-toolbar print-hide">
+        <span class="resume-print-hint">Usa Imprimir para guardar un PDF desde el navegador.</span>
+        <button class="button button-primary" type="button" data-print-resume>
+          Imprimir / Guardar PDF <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <article class="container resume-sheet" aria-label="Currículum">
+        <aside class="resume-side">
+          <h2 class="resume-name">Tu nombre</h2>
+          <p class="resume-role">Desarrollador de software · Ciudad, país</p>
+          <div class="resume-note print-hide">
+            Nota de la plantilla: sustituye los campos entre corchetes por tus datos antes de
+            publicar o guardar el currículum.
+          </div>
+          <section class="resume-section">
+            <h2>Contacto</h2>
+            <ul>
+              <li>tu@ejemplo.com</li>
+              <li>tu-portfolio.ejemplo</li>
+              <li>github.com/tu-usuario</li>
+              <li>linkedin.com/in/tu-usuario</li>
+            </ul>
+          </section>
+          <section class="resume-section">
+            <h2>Habilidades</h2>
+            <ul>
+              <li>Python · JavaScript</li>
+              <li>HTML · CSS · Diseño adaptable</li>
+              <li>Accesibilidad · Localización</li>
+              <li>Git · Pruebas · Documentación</li>
+            </ul>
+          </section>
+          <section class="resume-section">
+            <h2>Formación</h2>
+            <p>[Título o formación]<br>[Centro] · [Año]</p>
+          </section>
+          <section class="resume-section">
+            <h2>Idiomas</h2>
+            <p>[Idioma] · [Nivel]<br>[Idioma] · [Nivel]</p>
+          </section>
+        </aside>
+        <div>
+          <section class="resume-section resume-first-section">
+            <h2>Perfil</h2>
+            <p>
+              Desarrollador de software enfocado en crear productos digitales útiles, accesibles y
+              fáciles de mantener. Interés por trabajar en distintas capas, aprender con proyectos
+              prácticos y transformar ideas complejas en experiencias claras.
+            </p>
+          </section>
+          <section class="resume-section">
+            <h2>Experiencia</h2>
+            <article class="resume-entry">
+              <h3>[Puesto] · [Empresa]</h3>
+              <p class="resume-meta">[Mes año] — [Mes año] · [Ubicación o remoto]</p>
+              <p>[Describe tu impacto, responsabilidades y resultados. Siempre que puedas, empieza con un logro concreto.]</p>
+            </article>
+            <article class="resume-entry">
+              <h3>[Puesto] · [Empresa o cliente]</h3>
+              <p class="resume-meta">[Mes año] — [Mes año] · [Ubicación o remoto]</p>
+              <p>[Añade un resumen conciso del trabajo y del valor que aportaste.]</p>
+            </article>
+          </section>
+          <section class="resume-section">
+            <h2>Proyectos seleccionados</h2>
+            <article class="resume-entry">
+              <h3>Path Quest</h3>
+              <p class="resume-meta">Python · Algoritmos · Pruebas</p>
+              <p>Generación procedural de laberintos con búsqueda de rutas óptima mediante A* y pruebas automatizadas.</p>
+            </article>
+            <article class="resume-entry">
+              <h3>Valinor Reviews · Arkham Walker</h3>
+              <p class="resume-meta">HTML · CSS · JavaScript · Localización</p>
+              <p>Sitios editoriales bilingües y adaptables, organizados con recursos compartidos y páginas por idioma.</p>
+            </article>
+          </section>
+          <section class="resume-section">
+            <h2>Información adicional</h2>
+            <p>[Certificaciones, premios, proyectos de código abierto u otros datos relevantes.]</p>
+          </section>
+        </div>
+      </article>
+    </main>
+    <footer class="site-footer print-hide">
+      <div class="container footer-inner">
+        <span>© <span data-current-year>2025</span> Tu nombre.</span>
+        <nav class="footer-links" aria-label="Redes sociales">
+          <a href="index.html">Portfolio</a>
+          <a href="mailto:hello@example.com">Correo</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="../assets/js/site.js" defer></script>
+  </body>
+</html>

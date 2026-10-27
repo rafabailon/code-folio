@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10110f">
+    <meta name="description" content="Proyectos seleccionados de software y web: Path Quest, The Prancing Pony, Valinor Reviews y Arkham Walker.">
+    <meta property="og:title" content="Proyectos destacados — Tu nombre">
+    <meta property="og:description" content="Una mirada más cercana a proyectos de software y web creados con cuidado.">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="projects.html">
+    <title>Proyectos destacados — Tu nombre</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/site.css">
+    <script src="https://cdn.tailwindcss.com" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html" aria-label="Inicio de Code Folio">
+          <span class="brand-mark" aria-hidden="true">c<span>.</span></span>
+          <span>code folio</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Abrir navegación"
+          data-open-label="Abrir navegación"
+          data-close-label="Cerrar navegación"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Navegación principal">
+          <a data-page="index.html" href="index.html">Inicio</a>
+          <a data-page="projects.html" href="projects.html">Proyectos</a>
+          <a data-page="resume.html" href="resume.html">Currículum</a>
+          <a href="index.html#contact">Contacto</a>
+          <a class="language-switch" href="../en/projects.html" lang="en" aria-label="View in English">
+            ES <span>/</span> EN
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <div class="container page-heading">
+          <div>
+            <p class="eyebrow">Proyectos seleccionados / Proyectos personales</p>
+            <h1>Ideas pequeñas.<br>Hechas con cuidado.</h1>
+          </div>
+          <p>
+            Una selección de experimentos y proyectos terminados de software para terminal y web.
+            Cada uno comenzó con una pregunta que merecía explorarse.
+          </p>
+        </div>
+      </section>
+      <section class="section project-list-section">
+        <div class="container">
+        <div class="filter-bar" role="group" aria-label="Filtrar proyectos">
+          <button class="filter-button" type="button" data-filter="all" aria-pressed="true">Todos</button>
+          <button class="filter-button" type="button" data-filter="python" aria-pressed="false">Python</button>
+          <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal" id="path-quest" data-category="python">
+            <div class="project-visual"><span class="visual-path" aria-hidden="true">S · · · * · E</span></div>
+            <div class="project-content">
+              <div class="project-topline">
+                <span class="project-index">01 / Algoritmos</span>
+                <span class="project-type">Python · CLI</span>
+              </div>
+              <h2 class="project-name">Path Quest</h2>
+              <p>Generador procedural de laberintos y búsqueda de rutas animada para terminal.</p>
+              <ul class="tag-list"><li>Python 3</li><li>A*</li><li>heapq</li><li>unittest</li></ul>
+              <div class="project-links"><span class="project-label">Añadir enlaces al repositorio y a la demo</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal" id="prancing-pony" data-category="python">
+            <div class="project-visual"><span class="visual-tavern" aria-hidden="true">The Prancing Pony</span></div>
+            <div class="project-content">
+              <div class="project-topline">
+                <span class="project-index">02 / Sistemas de juego</span>
+                <span class="project-type">Python · CLI</span>
+              </div>
+              <h2 class="project-name">The Prancing Pony</h2>
+              <p>Juego modular de gestión de una taberna fantástica, con recursos, decisiones diarias y eventos aleatorios.</p>
+              <ul class="tag-list"><li>Python 3</li><li>POO</li><li>Bucle de juego</li><li>unittest</li></ul>
+              <div class="project-links"><span class="project-label">Añadir enlaces al repositorio y a la demo</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal" id="valinor-reviews" data-category="web">
+            <div class="project-visual"><div class="visual-book" aria-hidden="true"></div></div>
+            <div class="project-content">
+              <div class="project-topline">
+                <span class="project-index">03 / Experiencia editorial</span>
+                <span class="project-type">Web · Bilingüe</span>
+              </div>
+              <h2 class="project-name">Valinor Reviews</h2>
+              <p>Un sitio literario con experiencias separadas en español e inglés, páginas editoriales y rutas de descubrimiento.</p>
+              <ul class="tag-list"><li>HTML5</li><li>CSS</li><li>JavaScript</li><li>Adaptable</li></ul>
+              <div class="project-links"><span class="project-label">Añadir enlaces al repositorio y a la demo</span></div>
+            </div>
+          </article>
+          <article class="project-card reveal" id="arkham-walker" data-category="web">
+            <div class="project-visual"><span class="visual-arkham" aria-hidden="true">ARKHAM_</span></div>
+            <div class="project-content">
+              <div class="project-topline">
+                <span class="project-index">04 / Archivo narrativo</span>
+                <span class="project-type">Web · Bilingüe</span>
+              </div>
+              <h2 class="project-name">Arkham Walker</h2>
+              <p>Un diario de campo bilingüe y atmosférico, inspirado en la ficción extraña, con archivo, reseñas y notas de campo.</p>
+              <ul class="tag-list"><li>HTML5</li><li>CSS</li><li>JavaScript</li><li>Localización</li></ul>
+              <div class="project-links"><span class="project-label">Añadir enlaces al repositorio y a la demo</span></div>
+            </div>
+          </article>
+        </div>
+          <p class="resume-note case-note">
+            Añade las URL de los repositorios y las demos a cada proyecto antes de publicar.
+            Esta plantilla no inventa enlaces externos.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="contact-panel">
+            <div>
+              <p class="eyebrow">¿Tienes un proyecto en mente?</p>
+              <h2>Construyamos el siguiente.</h2>
+              <p>Cuéntame qué te despierta curiosidad y adónde quieres llevarlo.</p>
+            </div>
+            <a class="button button-primary" href="index.html#contact">
+              Hablemos <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span data-current-year>2025</span> Tu nombre.</span>
+        <nav class="footer-links" aria-label="Redes sociales">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:hello@example.com">Correo</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="../assets/js/site.js" defer></script>
+    <script src="../assets/js/projects.js" defer></script>
+  </body>
+</html>
